@@ -25,7 +25,7 @@ const CreativeDirector: React.FC = () => {
           position="relative"
           gridColumn={['1 / 4', '1 / 4', 'auto', 'auto', 'auto']}
         >
-          <Image height="420px" src="/directors/founder1.jpg" />
+          <Image height="420px" src="/directors/founder1.JPG" />
           <Flex
             position="absolute"
             bottom="-35px"
