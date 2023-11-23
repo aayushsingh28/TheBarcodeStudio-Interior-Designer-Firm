@@ -10,7 +10,7 @@ const CreativeDirector: React.FC = () => {
       mt={['24', '24', '24', '24', '64']}
     >
       <Heading as="h3" textTransform="uppercase" mb="20px">
-        Principal Architect
+        Founder
       </Heading>
       <Text fontSize="16px" mb="32px" maxW="460px" textAlign="center">
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -25,7 +25,7 @@ const CreativeDirector: React.FC = () => {
           position="relative"
           gridColumn={['1 / 4', '1 / 4', 'auto', 'auto', 'auto']}
         >
-          <Image height="420px" src="/directors/mani.jpg" />
+          <Image height="420px" src="/directors/founder1.jpg" />
           <Flex
             position="absolute"
             bottom="-35px"
@@ -42,7 +42,7 @@ const CreativeDirector: React.FC = () => {
               Manish Gupta
             </Text>
             <Text textTransform="uppercase" color="orange.500">
-              Architect
+              Principal Architect
             </Text>
           </Flex>
         </Box>
