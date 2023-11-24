@@ -24,7 +24,7 @@ const About: React.FC = () => {
         >
           About us
         </Heading>
-        <Text fontSize="lg" mb="20px" alignSelf="flex-end" textAlign="left">
+        <Text fontSize="md" mb="20px" alignSelf="flex-end" textAlign="left">
         The Barcode Studio is a multidisciplinary architecture practice focussed 
         on delivering the highest quality architecture services to our clients. 
         We focus on crafting and delivering the perfect blend of our 3 main pillars: 
