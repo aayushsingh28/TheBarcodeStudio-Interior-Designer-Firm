@@ -20,7 +20,7 @@ const Header: React.FC = () => {
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
-      height={['100vh', '100vh', '100vh', '100vh']}
+      height={['30vh', '30vh', '40vh', '100vh']}
       templateRows="1fr 1fr 1fr"
     >
       <Flex
