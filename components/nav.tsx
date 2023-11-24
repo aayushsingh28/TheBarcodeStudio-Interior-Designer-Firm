@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Flex, Link, Button, Stack, Scale } from '@chakra-ui/core'
 import Logo from './logo'
-
+import { Heading, Text } from '@chakra-ui/core'
 // import Navbutton from './navbutton'
 interface Navbutton {
   link?: string
@@ -36,22 +36,30 @@ const Nav = props => {
       justify="space-between"
       wrap="wrap"
       paddingX={['1.5em', '1.5em', '1.5em', '3%']}
-      paddingY=".5em"
+      paddingY="1em"
       bg="rgba(255,255,255,1)"
       color="black"
       textTransform="uppercase"
       {...props}
     >
-      <Flex align="center" mr={5}>
+      <Flex align="center" ml={1}>
         <Logo />
+        <Heading as="h1" size="lg" textTransform="uppercase" marginLeft={2}>
+        
+        <Text display="inline" fontWeight="extrabold" color="#261F1A">
+          The BARCODE STUDIO
+        </Text>{' '}
+    
+      </Heading>
       </Flex>
 
-      <Box display={['block', 'block', 'none', 'none']} onClick={handleToggle}>
+      <Box display={['block', 'block', 'none', 'none']} onClick={handleToggle} mt={4} >
         <svg
           fill="#FBA442"
           width="22px"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
+          
         >
           <title>Menu</title>
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -59,6 +67,7 @@ const Nav = props => {
       </Box>
 
       <Box
+
         display={[
           show ? 'block' : 'none',
           show ? 'block' : 'none',
