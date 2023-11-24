@@ -4,28 +4,52 @@ import { Flex, Text, Heading, Grid, Image, Box } from '@chakra-ui/core'
 
 const CreativeDirector: React.FC = () => {
   return (
-    <Flex
-      flexDirection="column"
-      alignItems="center"
-      mt={['24', '24', '24', '24', '64']}
-    >
-      <Heading as="h3" textTransform="uppercase" mb="20px">
-        Founder
-      </Heading>
-      <Text fontSize="16px" mb="32px" maxW="460px" textAlign="center">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
-      </Text>
-      <Grid
-        gridTemplateColumns="repeat(1, 1fr)"
-        gridGap="26px"
-        px={['8', '8', '8', '24', '24']}
+    <Grid templateColumns="repeat(6, 1fr)" marginY="24" alignItems="center">
+      <Flex
+        flexDirection="column"
+        flexWrap="nowrap"
+        gridColumn={['1 / 7', '1 / 7', '1 / 7', '1 / 4', '1 / 5']}
+        alignItems="left"
+        
+        paddingX={['8', '8', '8', '24', '24']}
+        // marginX="auto"
+        maxW="850px"
+        
+        mt='2.5em'
+        ml='.5em'
       >
-        <Box
-          position="relative"
-          gridColumn={['1 / 4', '1 / 4', 'auto', 'auto', 'auto']}
+        <Heading
+          as="h3"
+          textTransform="uppercase"
+          fontSize="5xl"
+          fontWeight="normal"
+          mb="20px"
+          alignSelf="flex-start"
         >
-          <Image height="420px" src="/directors/founder1.JPG" />
+          Founder
+        </Heading>
+        <Text fontSize="md" mb="20px" alignSelf="flex-start" textAlign="left">
+        Manish Gupta is the Founder and Principal Architect at The BarCode Studio. 
+        Born in Delhi, he studied at the renowned University School of Architecture
+         and Planning, IPU Delhi. After graduating, he worked with Anagram Architects 
+         for a brief stint before founding The BarCode Studio. Manish’s passion for 
+         stretching the conceptual possibilities of a project right down to its last
+          detail is reflected in his diverse repertoire. With a keen interest in practising
+           in a wide variety and scales of projects, his approach takes into account the 
+           spatial experience of the user before delving into the details. He practices the
+            philosophy of less is more, and firmly believes that design is a collaborative
+             effort. 
+        </Text>
+        {/* <Button>Learn More</Button> */}
+      </Flex>
+      <Box
+          position="relative"
+          gridColumn={['1/ 7', '2 / 7', '3/7', '5/7', '5/7']}
+        >
+          <Image 
+          style={{pointerEvents:'none'}}
+          alignItems="center"
+            justifyContent="center" height="420px" src="/directors/founder1.JPG" />
           <Flex
             position="absolute"
             bottom="-35px"
@@ -33,75 +57,20 @@ const CreativeDirector: React.FC = () => {
             alignItems="center"
             justifyContent="center"
             paddingY="6px"
-            width="80%"
+            width="40%"
             backgroundColor="white"
-            borderColor="orange.600"
+            borderColor="#A9957B"
             borderWidth="6px"
           >
-            <Text fontWeight="medium" fontSize="22px">
+            <Text alignItems="center" textAlign='center' textTransform="uppercase" fontWeight="medium" fontSize="22px">
               Manish Gupta
             </Text>
-            <Text textTransform="uppercase" color="orange.500">
+            <Text textTransform="uppercase" textAlign='center' fontWeight="bold" color="#A9957B">
               Principal Architect
             </Text>
           </Flex>
         </Box>
-
-        {/* <Box
-          position="relative"
-          gridColumn={['1 / 4', '1 / 4', 'auto', 'auto', 'auto']}
-          mt={['16', '16', '0', '0', '0']}
-        >
-          <Image src="/directors/2.png" />
-          <Flex
-            position="absolute"
-            bottom="-35px"
-            flexDirection="column"
-            alignItems="center"
-            justifyContent="center"
-            paddingY="6px"
-            width="80%"
-            backgroundColor="white"
-            borderColor="orange.500"
-            borderWidth="6px"
-          >
-            <Text fontWeight="medium" fontSize="22px">
-              Marie smith
-            </Text>
-            <Text textTransform="uppercase" color="orange.500">
-              Director
-            </Text>
-          </Flex>
-        </Box>
-
-        <Box
-          position="relative"
-          gridColumn={['1 / 4', '1 / 4', 'auto', 'auto', 'auto']}
-          mt={['12', '12', '0', '0', '0']}
-        >
-          <Image src="/directors/3.png" />
-          <Flex
-            position="absolute"
-            bottom="-35px"
-            flexDirection="column"
-            alignItems="center"
-            justifyContent="center"
-            paddingY="6px"
-            width="80%"
-            backgroundColor="white"
-            borderColor="orange.500"
-            borderWidth="6px"
-          >
-            <Text fontWeight="medium" fontSize="22px">
-              Barbara Jones
-            </Text>
-            <Text textTransform="uppercase" color="orange.500">
-              Director
-            </Text>
-          </Flex>
-        </Box> */}
-      </Grid>
-    </Flex>
+    </Grid>
   )
 }
 

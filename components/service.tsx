@@ -5,7 +5,7 @@ const Service: React.FC = () => {
   return (
     <Box position="relative">
       <Image
-        width={['0%', '0%', '0%', '40%', '60%']}
+        width={['0%', '0%', '0%', '40%', '40%']}
         maxW="660px"
         position="absolute"
         top="40%"
@@ -18,7 +18,7 @@ const Service: React.FC = () => {
         boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
       />
       <Grid
-        backgroundColor="orange.600"
+        backgroundColor="#A9957B"
         templateColumns="repeat(12, 1fr)"
         templateRows="repeat(3, 1fr)"
       >
