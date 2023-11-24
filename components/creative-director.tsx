@@ -8,12 +8,12 @@ const CreativeDirector: React.FC = () => {
       <Flex
         flexDirection="column"
         flexWrap="nowrap"
-        gridColumn={['1 / 7', '1 / 7', '1 / 7', '1 / 4', '1 / 5']}
+        gridColumn={['1 / 7', '1 / 7', '1 / 7', '1 / 4', '1 / 4']}
         alignItems="left"
         
         paddingX={['8', '8', '8', '24', '24']}
         // marginX="auto"
-        maxW="850px"
+        maxW="950px"
         
         mt='2.5em'
         ml='.5em'
@@ -28,7 +28,7 @@ const CreativeDirector: React.FC = () => {
         >
           Founder
         </Heading>
-        <Text fontSize="md" mb="20px" alignSelf="flex-start" textAlign="left">
+        <Text width={'130%'} fontSize="lg" mb="20px" alignSelf="flex-start" textAlign="left">
         Manish Gupta is the Founder and Principal Architect at The BarCode Studio. 
         Born in Delhi, he studied at the renowned University School of Architecture
          and Planning, IPU Delhi. After graduating, he worked with Anagram Architects 
