@@ -1,5 +1,4 @@
 import React from 'react'
-import { Map } from './map'
 import { Text, Flex, Grid, Box } from '@chakra-ui/core'
 import Logo from './logo'
 import {
@@ -12,22 +11,22 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <Grid as="footer" templateColumns="repeat(9,1fr)" mt="16" mb="16">
+    <Grid as="footer" templateColumns="repeat(5, 1fr)" mt="16" mb="16">
       <Flex
         flexDirection="column"
         alignItems="flex-start"
         gridColumn={['1 / 7', '1 / 7', '1 / 7', '1 / 3', '1 / 3']}
-        pl={['8', '8', '8', '20', '12']}
+        pl={['8', '8', '8', '24', '20']}
       >
         <Logo />
-        <Text fontSize="sm" mt="2" textAlign="left" lineHeight="20px" width={200}>
+        <Text fontSize="sm" mt="4" textAlign="left" lineHeight="22px">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s.
         </Text>
         <Flex
           flexDirection="row"
-          justifyContent="space-evenly"
+          justifyContent="space-between"
           alignItems="center"
           mt="8"
         >
@@ -43,8 +42,8 @@ const Footer: React.FC = () => {
         flexDirection="column"
         alignItems="flex-start"
         gridColumn={['1 / 7', '1 / 7', '1 / 7', '3 / 4', '3 / 4']}
-        paddingX="4"
-        mt={['12', '12', '12', '0', '']}
+        paddingX="8"
+        mt={['12', '12', '12', '0', '0']}
       >
         <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
           Projects
@@ -60,9 +59,8 @@ const Footer: React.FC = () => {
         flexDirection="column"
         alignItems="flex-start"
         gridColumn={['1 / 7', '1 / 7', '1 / 7', '4 / 5', '4 / 5']}
-        paddingX={['8', '8', '8', '2', '0']}
+        paddingX={['8', '8', '8', '2', '2']}
         mt={['12', '12', '12', '0', '0']}
-        ml={-4}
       >
         <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
           Contact Us
@@ -76,12 +74,12 @@ const Footer: React.FC = () => {
     
         flexDirection="column"
         alignItems="flex-start"
-        gridColumn={['1 / 7', '1 / 7', '1 / 7', '5 / 6', '5 / 10']}
-        paddingX={['8', '8', '8', '2', '2']}
+        gridColumn={['1 / 7', '1 / 7', '1 / 7', '5 / 6', ' 5 / 6']}
+        paddingX={['8', '8', '8', '2', '5']}
         mt={['12', '12', '12', '0', '0']}
+        ml={'20'}
       >
-        <Map/>
-        {/* <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
+        <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
         Website Designed by
         </Text>
         <Text fontWeight="bold" mb="6px">
@@ -89,7 +87,7 @@ const Footer: React.FC = () => {
         </Text>
         <Text mb="6px">
         Copyright © 2023. All Rights Reserved
-        </Text> */}
+        </Text>
       </Flex>
     </Grid>
   )
