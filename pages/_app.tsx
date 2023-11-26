@@ -17,7 +17,17 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <title>The BarCodeStudio</title>
         <meta
           name="description"
-          content="Let's make your House a HOME. Architecture | Interior Design | Furniture Design "
+          content="Transforming Spaces, Elevating Lives: Your Vision, Our Design.
+          Architecture | Interior Design | Furniture Design "
+          key="desc"
+        />
+        <meta
+          name="description"
+          content="Architecture | Interior Design | Furniture Design "
+        />
+        <meta
+          property="og:image"
+          content="/images/hgrt56.jpg"
         />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
