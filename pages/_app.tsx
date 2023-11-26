@@ -29,7 +29,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         />
         <meta
           property="og:image"
-          content="https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg"
+          content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D"
         />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
