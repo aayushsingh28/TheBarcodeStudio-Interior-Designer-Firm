@@ -27,7 +27,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         />
         <meta
           property="og:image"
-          content="/images/hgrt56.jpg"
+          content="https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg"
         />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
