@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
         </Text>
         <Text mb="6px">Address: Ground floor,F1-22, Kotla Rd, Pocket 1, Sector 11F, Rohini, Delhi, 110085</Text>
         <Text mb="6px">Phone: +91 8448023979</Text>
-        <Text>Email: info@colorlib.com</Text>
+        <Text>Email: thebarcodestudioofficial@gmail.com</Text>
       </Flex>
 
       <Flex

@@ -16,8 +16,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         ></link>
         <title>The BarCodeStudio</title>
         <meta
-          name="The Barcodestudio"
-          content="Let's make your House a HOME"
+          name="description"
+          content="Let's make your House a HOME. Architecture | Interior Design | Furniture Design "
         />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
