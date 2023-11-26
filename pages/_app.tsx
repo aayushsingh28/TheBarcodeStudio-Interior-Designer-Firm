@@ -3,6 +3,8 @@ import { AppProps } from 'next/app'
 import Head from 'next/head'
 import ThemeContainer from '../context/theme/ThemeContainer'
 import Headroom from 'react-headroom'
+import { Analytics } from '@vercel/analytics/react';
+
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
@@ -31,6 +33,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
+      <Analytics />
       <ThemeContainer>
         <Component {...pageProps} />
       </ThemeContainer>
