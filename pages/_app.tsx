@@ -16,7 +16,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
           href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700;800&display=swap"
           rel="stylesheet"
         ></link>
-        <title>The BarCodeStudio</title>
+        <title>The BarCode Studio</title>
         <meta
           name="description"
           content="Transforming Spaces, Elevating Lives: Your Vision, Our Design.

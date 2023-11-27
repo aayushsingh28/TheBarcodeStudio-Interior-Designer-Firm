@@ -49,7 +49,7 @@ const Service: React.FC = () => {
             mb="20px"
             alignSelf="flex-start"
           >
-            We Will Create Modern And First Class Intorior.
+            We Will Create Modern And First Class Interior.
           </Heading>
           <Text
             fontSize="sm"
@@ -57,16 +57,24 @@ const Service: React.FC = () => {
             alignSelf="flex-start"
             textAlign="left"
             lineHeight="23px"
+            mr={'30px'}
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make aa type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Barcode Studio, an interior and architectural 
+            design firm, offers a diverse range of professional 
+            services aimed at transforming spaces into functional 
+            and aesthetically pleasing environments. Specializing 
+            in both residential and commercial projects, they excel 
+            in conceptualizing innovative designs that align with 
+            clients' visions. Their services encompass detailed space 
+            planning, interior décor, and architectural solutions, 
+            ensuring a harmonious integration of form and function. 
+            Barcode Studio is committed to delivering comprehensive 
+            design packages, guiding clients from the initial ideation 
+            phase through project management and construction oversight.
+             With a focus on creativity, functionality, and attention 
+             to detail, Barcode Studio elevates interior and 
+             architectural design, creating spaces that reflect
+              both style and practicality.
           </Text>
           <Button
             alignSelf="flex-start"
